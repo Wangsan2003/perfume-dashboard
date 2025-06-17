@@ -8,7 +8,7 @@
 import pandas as pd
 import numpy as np
 import os
-import sklearn
+
 
 # 导入交互式绘图库 Plotly Express
 import plotly.express as px
