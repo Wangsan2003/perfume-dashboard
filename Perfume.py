@@ -20,8 +20,8 @@ pio.templates.default = "plotly_white"
 # 读取数据======这里有两个数据集，需要读取两个，使用pandas
 # --- 请确保将路径 "C://Users//86175//..." 修改为您的实际文件路径 ---
 try:
-    men_df = pd.read_csv("香水数据/archive (2)/ebay_mens_perfume.csv")
-    women_df = pd.read_csv("香水数据/archive (2)/ebay_womens_perfume.csv")
+    men_df = pd.read_csv("perfume-dashboard/data/ebday_mens_perfume.csv")
+    women_df = pd.read_csv("perfume-dashboard/data/ebday_womens_perfume.csv")
 except FileNotFoundError:
     print("错误：找不到指定的CSV文件。请检查文件路径是否正确。")
     # 如果文件不在指定路径，可以退出或引导用户输入正确路径
